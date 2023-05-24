@@ -1,0 +1,28 @@
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+ @keyframes moveBackground {
+      0% {
+        background-position: 0%;
+      }
+      100% {
+        background-position: 100%;
+      }
+    }
+
+    .botao {
+      background: linear-gradient(to right, #21e5ff, #1e24c9, #21e5ff);
+      background-size: 200% 100%;
+      color: black;
+      padding: 5px;
+      border-radius: 10px;
+      text-decoration: none;
+      animation: moveBackground 4s steps(50) infinite;
+}
+
+
+h3{
+    text-align: center;
+    
+}
