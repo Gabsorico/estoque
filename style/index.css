@@ -12,7 +12,7 @@
     }
 
     .botao {
-      background: linear-gradient(to right, #fcb762, #ff7700, #fcb762);
+      background: linear-gradient(to right, #fcb762, #ff5100, #fcb762);
       background-size: 200% 100%;
       color: black;
       padding: 5px;
@@ -20,7 +20,6 @@
       text-decoration: none;
       animation: moveBackground 4s steps(50) infinite;
 }
-
 
 h3{
     text-align: center;
